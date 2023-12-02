@@ -27,10 +27,7 @@ const Form = () => {
 
   return (
     <div>
-      <form
-        onSubmit={handleSubmit}
-        style={{ display: "flex", flexDirection: "column", alignItems: "center" }}
-      >
+      <form className="form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Nombre"
